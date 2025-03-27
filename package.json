@@ -1,0 +1,32 @@
+{
+  "name": "ts-solo-server",
+  "version": "1.0.0",
+  "description": "Mi test server en ts_p",
+  "homepage": "https://github.com/JOSY12/TS-Solo-Server#readme",
+  "bugs": {
+    "url": "https://github.com/JOSY12/TS-Solo-Server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JOSY12/TS-Solo-Server.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "servidor.js",
+  "scripts": {
+    "dev": "tsc -w & node --watch ./dist/src/Servidor.js"
+  },
+  "dependencies": {
+    "@types/pg": "^8.11.11",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.14.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/morgan": "^1.9.9"
+  }
+}

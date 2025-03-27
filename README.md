@@ -1,2 +1,3 @@
 # TS-Solo-Server
-Mi test server en ts_p
+
+MI servido TS,Expressjs,node,Postgresql
